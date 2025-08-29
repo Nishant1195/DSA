@@ -22,7 +22,7 @@ public:
 
     int secondSmallest(vector<int>& nums) {
         int smallest = nums[0];
-        int second_smallest = INT32_MIN;
+        int second_smallest = INT32_MAX;
         int size = nums.size();
         for(int i=0; i < size; i++){
             if(nums[i] < smallest){

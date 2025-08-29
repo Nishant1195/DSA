@@ -5,6 +5,7 @@ This repository contains my solutions to various **DSA problems** implemented in
 ---
 
 ## 📂 Arrays
+- [1752 Check Sorted & Rotated Array](./Arrays/1752_Check_Sorted_&_Rotated_Array.cpp)
 - [Largest Value in array](./Arrays/Largest_Value_in_array.cpp)
 - [Second Largest Element](./Arrays/Second_Largest_Element.cpp)
 
