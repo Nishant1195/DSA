@@ -4,24 +4,9 @@ This repository contains my solutions to various **DSA problems** implemented in
 
 ---
 
-## 📂 .vscode
-- [basic maths](./.vscode/basic_maths.cpp)
-- [practice](./.vscode/practice.cpp)
-- [stl](./.vscode/stl.cpp)
-
 ## 📂 Arrays
 - [Largest Value in array](./Arrays/Largest_Value_in_array.cpp)
-
-## 📂 Recursion
-- [factorial](./.vscode/Recursion/factorial.cpp)
-- [fibonacci](./.vscode/Recursion/fibonacci.cpp)
-- [print num](./.vscode/Recursion/print_num.cpp)
-- [reversearray](./.vscode/Recursion/reversearray.cpp)
-- [sum](./.vscode/Recursion/sum.cpp)
-- [tempCodeRunnerFile](./.vscode/Recursion/tempCodeRunnerFile.cpp)
-
-## 📂 Striver
-- [demo](./Striver/demo.cpp)
+- [Second Largest Element](./Arrays/Second_Largest_Element.cpp)
 
 ---
 

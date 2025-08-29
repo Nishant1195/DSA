@@ -6,20 +6,31 @@ ROOT_DIR = "."
 # Output README file
 README_FILE = "README.md"
 
+# Folders to ignore
+IGNORE_FOLDERS = {".vscode", "Striver"}
+
 def generate_readme():
     sections = {}
     
     # Walk through directories and collect .cpp files
     for root, dirs, files in os.walk(ROOT_DIR):
+        # Modify dirs in-place to skip unwanted folders
+        dirs[:] = [d for d in dirs if d not in IGNORE_FOLDERS]
+
         for file in files:
-            if file.endswith(".cpp"):
-                rel_path = os.path.join(root, file).replace("\\", "/")  # For Windows
-                folder = os.path.basename(os.path.dirname(rel_path)) or "Root"
-                
-                if folder not in sections:
-                    sections[folder] = []
-                
-                sections[folder].append((file.replace(".cpp", ""), rel_path))
+            # Skip unwanted files
+            if file.endswith(".exe"):
+                continue
+            if not file.endswith(".cpp"):
+                continue
+
+            rel_path = os.path.join(root, file).replace("\\", "/")  # For Windows
+            folder = os.path.basename(os.path.dirname(rel_path)) or "Root"
+            
+            if folder not in sections:
+                sections[folder] = []
+            
+            sections[folder].append((file.replace(".cpp", ""), rel_path))
     
     # Start writing README
     with open(README_FILE, "w", encoding="utf-8") as f:
