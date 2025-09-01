@@ -41,7 +41,16 @@ def generate_readme():
         # Write sections
         for section, files in sorted(sections.items()):
             f.write(f"## 📂 {section}\n")
-            for name, path in sorted(files):
+            
+            # Sort numerically if possible
+            def sort_key(item):
+                name, _ = item
+                try:
+                    return int(name)   # numeric order
+                except ValueError:
+                    return name        # fallback to string order
+            
+            for name, path in sorted(files, key=sort_key):
                 f.write(f"- [{name.replace('_', ' ')}]({path})\n")
             f.write("\n")
         
