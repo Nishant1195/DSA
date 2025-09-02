@@ -5,6 +5,7 @@ This repository contains my solutions to various **DSA problems** implemented in
 ---
 
 ## 📂 Arrays
+- [136 Single Number](./Arrays/136_Single_Number.cpp)
 - [1752 Check Sorted & Rotated Array](./Arrays/1752_Check_Sorted_&_Rotated_Array.cpp)
 - [189 Rotate Array](./Arrays/189_Rotate_Array.cpp)
 - [268 Missing Number](./Arrays/268_Missing_Number.cpp)
