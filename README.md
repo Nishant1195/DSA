@@ -10,6 +10,7 @@ This repository contains my solutions to various **DSA problems** implemented in
 - [268 Missing Number](./Arrays/268_Missing_Number.cpp)
 - [26 Check Duplicates In Sorted Array](./Arrays/26_Check_Duplicates_In_Sorted_Array.cpp)
 - [283 Move Zeroes to End](./Arrays/283_Move_Zeroes_to_End.cpp)
+- [485 Max Consecutive Ones](./Arrays/485_Max_Consecutive_Ones.cpp)
 - [Largest Value in array](./Arrays/Largest_Value_in_array.cpp)
 - [Second Largest Element](./Arrays/Second_Largest_Element.cpp)
 
