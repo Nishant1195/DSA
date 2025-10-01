@@ -13,6 +13,7 @@ This repository contains my solutions to various **DSA problems** implemented in
 - [283 Move Zeroes to End](./Arrays/283_Move_Zeroes_to_End.cpp)
 - [485 Max Consecutive Ones](./Arrays/485_Max_Consecutive_Ones.cpp)
 - [Largest Value in array](./Arrays/Largest_Value_in_array.cpp)
+- [Longest Subarray With Sum k](./Arrays/Longest_Subarray_With_Sum_k.cpp)
 - [Second Largest Element](./Arrays/Second_Largest_Element.cpp)
 
 ---
